@@ -9,6 +9,7 @@ This extension adds a new gateway option to the [Two-Factor plugin](https://gith
 
 ## What do I need to change for it to work in my setup?
 You’ll need to update the API call to integrate with your specific SMS gateway provider.
+
 You can find it here: https://github.com/rwkyyy/two-factor-sms/blob/main/inc/two-factor-sms-class-extension.php#L56
 
 ## Anything else?
