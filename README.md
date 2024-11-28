@@ -9,6 +9,7 @@ This extension adds a new gateway option to the [Two-Factor plugin](https://gith
 
 ## What do I need to change for it to work in my setup?
 You’ll need to update the API call to integrate with your specific SMS gateway provider.
+You can find it here: https://github.com/rwkyyy/two-factor-sms/blob/main/inc/two-factor-sms-class-extension.php#L56
 
 ## Anything else?
 Out of the box, the plugin retrieves the `billing_phone` from the user profile and sends the authentication SMS to this number. Because of this, **WooCommerce is required**.
