@@ -1,6 +1,7 @@
+# Two Factor SMS Authentication Option
 I’ve worked with several clients who needed WooCommerce Two-Factor Authentication via SMS. Since many of them use a local SMS gateway, I developed this small extension that only requires an updated SMS gateway call to function properly.
 
-# Requirements
+## Requirements
 - [Two-Factor plugin](https://github.com/WordPress/two-factor)  
 - [WooCommerce](https://github.com/woocommerce/woocommerce)
 
