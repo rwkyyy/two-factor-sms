@@ -16,7 +16,8 @@ class Two_Factor_SMS extends Two_Factor_Provider {
 			echo '<div class="error">' . esc_html( $result->get_error_message() ) . '</div>';
 		} else {
 			echo '<label for="sms_code">' . __( 'Enter the code sent to your phone:', 'two-factor-sms' ) . '</label>';
-			echo '<input type="text" name="sms_code" id="sms_code" class="input authcode" inputmode="numeric" />';
+			echo '<input type="text" inputmode="numeric" name="sms_code" id="sms_code" class="input authcode" autocomplete="one-time-code" />';
+			echo '<button type="submit" class="button button-primary">' . __( 'Submit code', 'two-factor-sms' ) . '</button>';
 		}
 	}
 
