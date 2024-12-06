@@ -12,7 +12,9 @@ This extension adds a new gateway option to the [Two-Factor plugin](https://gith
 You’ll need to update the API call to integrate with your specific SMS gateway provider.
 
 The current version is considering a standard API + URL to call, as follows:
+
 API KEY: https://github.com/rwkyyy/two-factor-sms/blob/main/inc/two-factor-sms-class-extension.php#L59
+
 URL: https://github.com/rwkyyy/two-factor-sms/blob/main/inc/two-factor-sms-class-extension.php#L66
 
 ## Anything else?
